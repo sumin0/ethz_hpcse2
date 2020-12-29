@@ -1,0 +1,7 @@
+*.swp
+*.o
+.DS_Store
+.vscode/*
+*/.vscode/*
+*/*.txt
+

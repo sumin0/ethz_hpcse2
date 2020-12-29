@@ -1,0 +1,20 @@
+HOW TO RUN
+----------
+To run the code on Euler remove all previously loaded nodules (purge) and load the following modules:
+
+module load new
+module load gcc/4.8.2
+module load open_mpi/3.0.0
+module load openblas
+
+Alternatively, source the file modules.src, i.e. type in your shell `source modules.src`
+
+You can request 4 cores and an interative shell to work with:
+bsub -n 4 -W  04:00 -Is bash
+
+Then compile with Make
+make
+
+and run with mpi
+mpirun -n 4 ./cannon
+
