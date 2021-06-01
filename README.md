@@ -1,1 +1,1 @@
-My submission files (not solution) for the assignments for the course HPCSE II.
+Assignments from the course HPCSE II.
